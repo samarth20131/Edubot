@@ -8,4 +8,9 @@ def index(request):
 
 def chat(request):
     return render(request, 'chat.html')
-    # return HttpResponse("This is chat page")
+
+def login(request):
+    return render(request, 'login.html')
+    
+def dashboard(request):
+    return render(request, 'dashboard.html')
